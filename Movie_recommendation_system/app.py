@@ -322,12 +322,12 @@ if st.session_state.movieid:
     st.session_state.show_dialog = False
     st.session_state.movieid = False
 
-st.markdown(
-    """
-    <hr>
-    <div style='text-align: center; color: gray;'>
-        Developed by <b>Shaik Tajuddin</b> | Powered by Streamlit & TMDB API
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <hr>
+#     <div style='text-align: center; color: gray;'>
+#         Developed by <b>Shaik Tajuddin</b> | Powered by Streamlit & TMDB API
+#     </div>
+#     """,
+#     unsafe_allow_html=True
+# )
